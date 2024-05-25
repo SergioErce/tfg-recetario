@@ -1,0 +1,12 @@
+div {
+    width: 80%;
+    margin: 1rem;
+}
+
+table {
+    width: 100%;
+}
+
+tr.mat-mdc-footer-row td {
+    font-weight: bold;
+}

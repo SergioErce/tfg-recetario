@@ -1,0 +1,22 @@
+<div *ngIf="loaded">
+    <h1 class="montez-regular">{{recipe.nombre}}</h1>
+    <div class="ingredients">
+        <img [src]="'assets/img/' + recipe.id + '.webp'" alt="Photo of {{ recipe.nombre }}">
+        <div class="list">
+            <ul>
+                <li><h2 class="montez-regular">{{ "ingredientes" | translate }}</h2></li>
+                <div *ngFor="let ingredient of ingredients">
+                    <li class="unkempt-regular">{{ingredient}}</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="list">
+        <ol>
+            <div *ngFor="let tip of tips">
+                <li class="unkempt-regular">{{tip}}</li>
+            </div>
+        </ol>
+    </div>
+    <button mat-raised-button (click)="onSelectCosting()" color="accent">{{ "seleccionaEscandallo" | translate }}</button>
+</div>

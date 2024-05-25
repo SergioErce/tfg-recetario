@@ -1,0 +1,15 @@
+<mat-card class="recipe">
+    <mat-card-header>
+        <div mat-card-avatar class="header"></div>
+        <mat-card-title>
+            <p class="unkempt-regular">{{recipe.user}}</p>
+        </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="'assets/img/' + recipe.id + '.webp'" alt="Photo of {{ recipe.nombre }}">
+    <mat-card-content>
+        <h1 class="montez-regular">{{recipe.nombre}}</h1>
+    </mat-card-content>
+
+    <button mat-raised-button (click)="onSelectRecipe()" color="accent">{{ "seleccionaReceta" | translate }}</button>
+
+</mat-card>

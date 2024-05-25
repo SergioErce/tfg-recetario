@@ -1,0 +1,20 @@
+{
+    "inicio": "Home",
+    "recetas": "Recipes",
+    "escandallos": "Costing",
+    "ingredientes": "Ingredients",
+    "seleccionaReceta": "View Recipe",
+    "seleccionaEscandallo": "View Costing",
+    "elaboracion": "Preparation",
+    "ingrediente": "Ingredient",
+    "total": "Total",
+    "cantidad": "Quantity",
+    "coste": "Cost",
+    "id": "Id",
+    "nombre": "Name",
+    "precio": "Price",
+    "filtro": "Filter",
+    "noData": "No data matching the filter",
+    "login": "Login",
+    "registro": "Sign Up"
+}

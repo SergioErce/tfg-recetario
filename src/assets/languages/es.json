@@ -1,0 +1,20 @@
+{
+    "inicio": "Inicio",
+    "recetas": "Recetas",
+    "escandallos": "Escandallos",
+    "ingredientes": "Ingredientes",
+    "seleccionaReceta": "Ver Receta",
+    "seleccionaEscandallo": "Ver Escandallo",
+    "elaboracion": "Elaboracion",
+    "ingrediente": "Ingrediente",
+    "total": "Total",
+    "cantidad": "Cantidad",
+    "coste": "Coste",
+    "id": "Id",
+    "nombre": "Nombre",
+    "precio": "Precio",
+    "filtro": "Filtro",
+    "noData": "No hay coincidencias ",
+    "login": "Iniciar Sesion",
+    "registro": "Registro"
+}

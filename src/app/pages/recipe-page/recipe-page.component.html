@@ -1,0 +1,11 @@
+<div *ngIf="loaded">
+    <div *ngIf="id" class="comp">
+        <app-complete-recipe [recipe]="recipe"></app-complete-recipe>
+    </div>
+
+    <div *ngIf="!id">
+        <div *ngFor="let rec of recipes" class="comp">
+            <app-complete-recipe [recipe]="rec"></app-complete-recipe>
+        </div>
+    </div>
+</div>

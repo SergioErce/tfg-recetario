@@ -1,0 +1,11 @@
+app-complete-recipe {
+    max-width: 1200px;
+    width: 90%;
+    border-radius: 1rem;
+    background-color: var(--bg-primary);
+}
+.comp{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}

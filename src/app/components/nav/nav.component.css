@@ -1,0 +1,39 @@
+nav {
+    background-color: var(--bg-nav);
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+@media all and (min-width:500px) {
+    ul {
+        gap: 2rem
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    li:first-child {
+        margin-left: auto;
+    }
+
+    li:last-child {
+        margin-right: 0;
+        margin-left: auto;
+    }
+}

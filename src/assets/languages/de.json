@@ -1,0 +1,20 @@
+{
+    "inicio": "Startseite",
+    "recetas": "Rezepte",
+    "escandallos": "Kalkulation",
+    "ingredientes": "Zutaten",
+    "seleccionaReceta": "Rezept anzeigen",
+    "seleccionaEscandallo": "Kalkulation anzeigen",
+    "elaboracion": "Zubereitung",
+    "ingrediente": "Zutat",
+    "total": "Gesamt",
+    "cantidad": "Menge",
+    "coste": "Kosten",
+    "id": "Id",
+    "nombre": "Name",
+    "precio": "Preis",
+    "filtro": "Filter",
+    "noData": "Keine Daten, die dem Filter entsprechen",
+    "login": "Anmelden",
+    "registro": "Registrieren"
+}

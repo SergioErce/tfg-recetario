@@ -1,0 +1,108 @@
+:root {
+    --txt-primary: #000000;
+    --txt-accent: #ffffff;
+    --txt-shadow: #006180;
+    --txt-header: #47B3D4;
+    --bg-primary: rgb(255, 192, 128);
+    --bg-primary-so: rgba(255, 192, 128, 0.8);
+    --bg-nav: #804000;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-image: url("assets/img/Background80.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.allerta-stencil-regular {
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montez-regular {
+    font-family: "Montez", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.unkempt-regular {
+    font-family: "Unkempt", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+app-root {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+app-header,
+router-outlet,
+app-footer,
+app-nav {
+    display: block;
+    width: 100%;
+}
+
+app-not-found {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+app-header h1 {
+    height: 150px;
+    background-image: url("assets/img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+app-home-page {
+    width: 99%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 1rem;
+    gap: 1rem;
+}
+
+app-ingredient-page,
+app-costing-page {
+    display: flex;
+    justify-content: center;
+}
+
+app-login,
+app-register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (min-width:700px) {
+    app-home-page {
+        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "inicio": "Accueil",
+    "recetas": "Recettes",
+    "escandallos": "Coût",
+    "ingredientes": "Ingrédients",
+    "seleccionaReceta": "Voir la Recette",
+    "seleccionaEscandallo": "Voir le Coût",
+    "elaboracion": "Préparation",
+    "ingrediente": "Ingrédient",
+    "total": "Total",
+    "cantidad": "Quantité",
+    "coste": "Coût",
+    "id": "Id",
+    "nombre": "Nom",
+    "precio": "Prix",
+    "filtro": "Filtre",
+    "noData": "Aucune donnée correspondant au filtre",
+    "login": "Se connecter",
+    "registro": "Inscription"
+}

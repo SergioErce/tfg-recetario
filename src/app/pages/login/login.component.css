@@ -1,0 +1,9 @@
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: clamp(200px, 50%, 400px);
+    background-color: var(--bg-primary-so);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+}

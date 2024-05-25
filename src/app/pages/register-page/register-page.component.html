@@ -1,0 +1,17 @@
+<form [formGroup]="loginForm" (ngSubmit)="submitUser()">
+    <h1 class="montez-regular">{{"registro" | translate}}</h1>
+    <mat-form-field>
+        <mat-label>{{"usuario" | translate}}</mat-label>
+        <input matInput formControlName="user">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>{{"contraseña" | translate}}</mat-label>
+        <input matInput formControlName="pass" [type]="hide ? 'password' : 'text'">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+    </mat-form-field>
+    <button mat-raised-button type="submit" color="accent">{{"registro" | translate}}</button>
+</form>
